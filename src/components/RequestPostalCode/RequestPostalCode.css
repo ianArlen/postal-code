@@ -1,0 +1,29 @@
+.RequestPostalCode {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 1;
+  max-width: 300px;
+}
+
+.search__input {
+  width: calc(100% - 64px); /* Ajusta según sea necesario */
+}
+
+.error-message {
+  background-color: black; /* Fondo negro */
+  color: red; /* Texto rojo */
+  font-size: 14px;
+  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.colonia-name {
+  color: white; 
+  font-size: 16px;
+  margin-top: 20px;
+}

@@ -1,0 +1,41 @@
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background: #fff;
+  width: 160px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  border-radius: 0px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  width: 410px;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .button-container {
+    width: 340px;
+  }
+}
+
+@media (max-width: 360px) {
+  .button-container {
+    width: 260px;
+  }
+}
